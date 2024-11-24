@@ -17,7 +17,7 @@ const AboutUs = () => {
                         on the table. </p>
                     <p className={`text-xl `}> At ProTech Innovation Ltd., it is our trait to thrive for that MORE, so
                         that we can empower businesses with technology solutions enabling effective infrastructure and
-                        optimal output. Let's embark on a journey of innovation together and make our venture secure,
+                        optimal output. Lets embark on a journey of innovation together and make our venture secure,
                         resilient, and apt for futuristic needs</p>
                 </div>
                 <div>

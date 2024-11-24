@@ -52,7 +52,7 @@ export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
             href: undefined,
             target: undefined,
             rel: undefined,
-            onClick: (e: any) => e.preventDefault(),
+            onClick: (e: React.MouseEvent<HTMLAnchorElement>) => e.preventDefault(),
         },
     });
 };
@@ -80,9 +80,10 @@ export function IconCloud({ iconSlugs }: DynamicCloudProps) {
     }, [data, theme]);
 
     return (
-        // @ts-ignore
+        // @ts-expect-error: Cloud component does not fully support dynamic props in current typings
         <Cloud {...cloudProps}>
             <>{renderedIcons}</>
         </Cloud>
+
     );
 }

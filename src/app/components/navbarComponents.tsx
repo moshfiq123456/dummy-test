@@ -3,7 +3,7 @@ import React, {useEffect, useRef, useState} from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter} from "react-icons/fa";
+import {FaFacebook, FaLinkedin, FaTwitter} from "react-icons/fa";
 
 const transition = {
     type: "spring",

@@ -3,7 +3,6 @@
 import React from "react";
 import Link from "next/link";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { MdEmail, MdPhone } from "react-icons/md";
 import Image from "next/image";
 
 const Footer = () => {

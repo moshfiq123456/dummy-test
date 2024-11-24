@@ -1,6 +1,4 @@
 import React from "react";
-import { BackgroundBeamsWithCollision } from "@/app/components/ui/background-beams-with-collision";
-import {TypewriterEffectSmoothDemo} from "@/app/components/TypewriterEffect";
 
 export function HeroBanner() {
     return (

@@ -1,6 +1,6 @@
 'use client'
 import React, {useState} from 'react';
-import {Menu, MenuItem, ProductItem} from "@/app/components/navbarComponents";
+import {Menu, MenuItem} from "@/app/components/navbarComponents";
 
 const Navbar = () => {
     const [active, setActive] = useState<string | null>(null);
